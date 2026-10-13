@@ -5,7 +5,12 @@
 }
 
 body{
-    background-image: res/backdrop.jpg;
+    background-image: url(https://ollesab.mockelngymnasiet.com/res/backdrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -14,4 +19,63 @@ body{
     align-items: center;
     text-align: center;
     min-height: 100dvh;
+    width: auto;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    filter: invert(100%);
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a{
+    font-size: 35px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: hsl(199.6 79.7% 34.7%);
+    background-color: oklch(26.11% 0.0319 198.74);
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    border-radius: 500px;
+    flex-direction: column;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70dvh;
+    width: 50%;
+}
+.fact{
+        background: rgba(165, 165, 165, 0.7);
+        
+}
+
+.logo{
+    transform: scale(1.35);
 }
